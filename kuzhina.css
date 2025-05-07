@@ -1,0 +1,42 @@
+body {
+    background: #000000;
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 52%, rgba(143, 14, 14, 1) 100%);
+   
+}
+    
+
+.center {
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center;
+        height: 100vh; 
+        color: white; 
+        gap: 20px; 
+        text-shadow  :0px 0px 5px rgba(255, 255, 255, 0.5);
+        font-family: "Fontdiner Swanky", serif ;
+    }
+
+    button {
+        background-color: rgba(255, 255, 255, 0.1); /* Sfond i tejdukshëm i bardhë */
+        color: white; /* Ngjyra e tekstit */
+        border: 2px solid rgba(255, 255, 255, 0.3); /* Kufiri i butonit */
+        border-radius: 5px; /* Këndet e rrumbullakosura */
+        padding: 10px 20px; /* Hapësira brenda butonit */
+        font-size: 1rem; /* Madhësia e tekstit */
+        font-family: "Fontdiner Swanky", serif; /* Fonti i njëjtë me tekstin */
+        cursor: pointer; /* Tregon që butoni është i klikueshëm */
+        transition: all 0.3s ease; /* Efekt i butë për ndryshime */
+    }
+    
+    button:hover {
+        background-color: rgba(255, 255, 255, 0.3); /* Ndryshon sfondin kur kalon mbi të */
+        color: black; /* Ndryshon ngjyrën e tekstit kur kalon mbi të */
+        transform: scale(1.05); /* Zmadhohet pak kur kalon mbi të */
+        border-color: white; /* Kufiri bëhet më i dukshëm */
+    }
+
+   
+      
+
+    
